@@ -14,4 +14,4 @@ nixpass_db = database.Database(
 
 @nixpass_server.get("/")
 async def root():
-    return {"message": "C'est le pass qui te permet d'entrer dans une faille spatio-temporelle de l'helicopter-kiting."}
+    return {"message": "Hello from NixPass !"}
