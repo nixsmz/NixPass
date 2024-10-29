@@ -12,8 +12,8 @@ This is a guide to set up the development environment for NixPass. Later, during
 ```bash
 $ python3 -m venv .venv
 ```
-2. Create a folder for certificates .crt / .key or .pem named certs/
-3. Modify the /entrypoint.sh file with the desired parameters.
+2. Create a folder for certificates `.crt` / `.key` or `.pem` named `certs/`
+3. Modify the `/entrypoint.sh` file with the desired parameters.
 
 ### Starting Up
 Once the environment variables are modified and the setup is complete, simply run the script with:
@@ -22,4 +22,4 @@ $ ./entrypoint.sh
 ```
 
 ### Author
-@nixsmz
+[@nixsmz](https://github.com/nixsmz)
