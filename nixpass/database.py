@@ -2,7 +2,7 @@ import mariadb, sys
 
 class Database:
     TAG = "DB"
-    SQL_MODEL = "./srv/backend/tables.sql"
+    SQL_MODEL = "./srv/tables.sql"
     connection = None
     def __init__(self, host: str, port: str, user: str, password: str, name: str):
         try:
